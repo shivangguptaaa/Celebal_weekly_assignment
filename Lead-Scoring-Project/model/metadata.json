@@ -1,0 +1,49 @@
+{
+  "trained_at": "2026-07-16T01:54:38.614613+00:00",
+  "model_type": "RandomForest",
+  "test_roc_auc": 0.8763216588858999,
+  "hot_threshold": 66,
+  "warm_threshold": 46,
+  "precision_at_hot_threshold": 0.8034351145038168,
+  "recall_at_hot_threshold": 0.5912921348314607,
+  "precision_target_met": true,
+  "calibration_applied": false,
+  "calibration_check": {
+    "max_reliability_gap_before": 0.059749079307583886,
+    "brier_score_before": 0.13681527922539788,
+    "brier_score_after": null
+  },
+  "random_state": 42,
+  "feature_columns": [
+    "TotalVisits",
+    "Total Time Spent on Website",
+    "Page Views Per Visit",
+    "Do Not Email",
+    "A free copy of Mastering The Interview",
+    "Lead Origin",
+    "Lead Source",
+    "Last Activity",
+    "Country",
+    "Specialization",
+    "How did you hear about X Education",
+    "What is your current occupation",
+    "City"
+  ],
+  "candidate_model_comparison": [
+    {
+      "model": "LogisticRegression",
+      "roc_auc_mean": 0.8972994044726343,
+      "roc_auc_std": 0.0036854360457516167
+    },
+    {
+      "model": "RandomForest",
+      "roc_auc_mean": 0.8993924121680543,
+      "roc_auc_std": 0.004118791170674218
+    },
+    {
+      "model": "XGBoost",
+      "roc_auc_mean": 0.8869428365437539,
+      "roc_auc_std": 0.0057517549491605076
+    }
+  ]
+}

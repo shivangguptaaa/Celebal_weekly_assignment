@@ -1,0 +1,294 @@
+[
+  {
+    "feature": "numeric__Total Time Spent on Website",
+    "importance": 0.2794019145918208
+  },
+  {
+    "feature": "categorical__Last Activity_SMS Sent",
+    "importance": 0.06649854308228273
+  },
+  {
+    "feature": "numeric__Page Views Per Visit",
+    "importance": 0.05856538048916965
+  },
+  {
+    "feature": "numeric__TotalVisits",
+    "importance": 0.05613673520019621
+  },
+  {
+    "feature": "categorical__What is your current occupation_Working Professional",
+    "importance": 0.0479795396775365
+  },
+  {
+    "feature": "categorical__What is your current occupation_Unknown",
+    "importance": 0.047043428626897935
+  },
+  {
+    "feature": "categorical__Lead Origin_Lead Add Form",
+    "importance": 0.04305009275179911
+  },
+  {
+    "feature": "categorical__What is your current occupation_Unemployed",
+    "importance": 0.021560184877037737
+  },
+  {
+    "feature": "categorical__Lead Source_Reference",
+    "importance": 0.020958385689141913
+  },
+  {
+    "feature": "categorical__Last Activity_Olark Chat Conversation",
+    "importance": 0.016306952183350078
+  },
+  {
+    "feature": "categorical__Specialization_Unknown",
+    "importance": 0.014805723541827458
+  },
+  {
+    "feature": "categorical__Last Activity_Email Opened",
+    "importance": 0.01392479307704922
+  },
+  {
+    "feature": "binary__Do Not Email",
+    "importance": 0.013166690426562273
+  },
+  {
+    "feature": "categorical__City_Mumbai",
+    "importance": 0.012879467636439173
+  },
+  {
+    "feature": "categorical__Lead Origin_API",
+    "importance": 0.011223135721896154
+  },
+  {
+    "feature": "categorical__Specialization_Marketing Management",
+    "importance": 0.010197448617664267
+  },
+  {
+    "feature": "categorical__Lead Origin_Landing Page Submission",
+    "importance": 0.010186252884934544
+  },
+  {
+    "feature": "categorical__Specialization_Finance Management",
+    "importance": 0.010019133600883311
+  },
+  {
+    "feature": "binary__A free copy of Mastering The Interview",
+    "importance": 0.009611040470721496
+  },
+  {
+    "feature": "categorical__City_Unknown",
+    "importance": 0.009602990544054696
+  },
+  {
+    "feature": "categorical__Specialization_Human Resource Management",
+    "importance": 0.009547216089802853
+  },
+  {
+    "feature": "categorical__Lead Source_Direct Traffic",
+    "importance": 0.00895151815852701
+  },
+  {
+    "feature": "categorical__Lead Source_Google",
+    "importance": 0.008945308992214763
+  },
+  {
+    "feature": "categorical__City_Thane & Outskirts",
+    "importance": 0.008621373512690041
+  },
+  {
+    "feature": "categorical__Country_Unknown",
+    "importance": 0.008152916270603654
+  },
+  {
+    "feature": "categorical__City_Other Cities",
+    "importance": 0.007731234283409244
+  },
+  {
+    "feature": "categorical__Lead Source_Organic Search",
+    "importance": 0.007528500050929636
+  },
+  {
+    "feature": "categorical__Specialization_Business Administration",
+    "importance": 0.007327859912361589
+  },
+  {
+    "feature": "categorical__How did you hear about X Education_Unknown",
+    "importance": 0.007278494855716122
+  },
+  {
+    "feature": "categorical__Country_India",
+    "importance": 0.007146320503067848
+  },
+  {
+    "feature": "categorical__Specialization_Operations Management",
+    "importance": 0.007128503218638622
+  },
+  {
+    "feature": "categorical__Lead Source_Welingak Website",
+    "importance": 0.007096264521046146
+  },
+  {
+    "feature": "categorical__Lead Source_Olark Chat",
+    "importance": 0.006905185780216855
+  },
+  {
+    "feature": "categorical__How did you hear about X Education_Online Search",
+    "importance": 0.0067310407542395725
+  },
+  {
+    "feature": "categorical__Last Activity_Page Visited on Website",
+    "importance": 0.006459843432356583
+  },
+  {
+    "feature": "categorical__Last Activity_Converted to Lead",
+    "importance": 0.0061107270489480486
+  },
+  {
+    "feature": "categorical__City_Other Metro Cities",
+    "importance": 0.0057839747499112025
+  },
+  {
+    "feature": "categorical__City_Other Cities of Maharashtra",
+    "importance": 0.005610462398087735
+  },
+  {
+    "feature": "categorical__Specialization_Banking, Investment And Insurance",
+    "importance": 0.005396416737013495
+  },
+  {
+    "feature": "categorical__Specialization_Supply Chain Management",
+    "importance": 0.0053497646066585445
+  },
+  {
+    "feature": "categorical__Last Activity_Email Bounced",
+    "importance": 0.005302106232839265
+  },
+  {
+    "feature": "categorical__Specialization_IT Projects Management",
+    "importance": 0.005206562321049628
+  },
+  {
+    "feature": "categorical__How did you hear about X Education_Student of SomeSchool",
+    "importance": 0.005051887168030374
+  },
+  {
+    "feature": "categorical__How did you hear about X Education_Word Of Mouth",
+    "importance": 0.004756738926499573
+  },
+  {
+    "feature": "categorical__How did you hear about X Education_Other",
+    "importance": 0.004550940292766868
+  },
+  {
+    "feature": "categorical__Specialization_Media and Advertising",
+    "importance": 0.004195941817201588
+  },
+  {
+    "feature": "categorical__Specialization_International Business",
+    "importance": 0.0037446071533368958
+  },
+  {
+    "feature": "categorical__What is your current occupation_Student",
+    "importance": 0.003665379745622437
+  },
+  {
+    "feature": "categorical__Country_Other",
+    "importance": 0.0034912360593365808
+  },
+  {
+    "feature": "categorical__Last Activity_Email Link Clicked",
+    "importance": 0.0034399167858632958
+  },
+  {
+    "feature": "categorical__Specialization_Other",
+    "importance": 0.0033771421694035325
+  },
+  {
+    "feature": "categorical__Specialization_Healthcare Management",
+    "importance": 0.0033285778854364205
+  },
+  {
+    "feature": "categorical__Specialization_Travel and Tourism",
+    "importance": 0.0032706036549740502
+  },
+  {
+    "feature": "categorical__Specialization_E-COMMERCE",
+    "importance": 0.0030280216556561688
+  },
+  {
+    "feature": "categorical__Specialization_Hospitality Management",
+    "importance": 0.0030191243268974685
+  },
+  {
+    "feature": "categorical__How did you hear about X Education_Multiple Sources",
+    "importance": 0.002963715055748966
+  },
+  {
+    "feature": "categorical__Specialization_Retail Management",
+    "importance": 0.002872820018798076
+  },
+  {
+    "feature": "categorical__Last Activity_Had a Phone Conversation",
+    "importance": 0.0024141135925259977
+  },
+  {
+    "feature": "categorical__Lead Source_Referral Sites",
+    "importance": 0.0023199422323217788
+  },
+  {
+    "feature": "categorical__Last Activity_Form Submitted on Website",
+    "importance": 0.001967291763494879
+  },
+  {
+    "feature": "categorical__Last Activity_Unreachable",
+    "importance": 0.0018199191153372392
+  },
+  {
+    "feature": "categorical__City_Other",
+    "importance": 0.0016536462526484832
+  },
+  {
+    "feature": "categorical__What is your current occupation_Other",
+    "importance": 0.001507211386423105
+  },
+  {
+    "feature": "categorical__Lead Source_Other",
+    "importance": 0.0013833487291342573
+  },
+  {
+    "feature": "categorical__Lead Origin_Lead Import",
+    "importance": 0.001312676605708708
+  },
+  {
+    "feature": "categorical__Last Activity_Unknown",
+    "importance": 0.0011328182924420745
+  },
+  {
+    "feature": "categorical__Last Activity_Unsubscribed",
+    "importance": 0.0010859407387170223
+  },
+  {
+    "feature": "categorical__Last Activity_Approached upfront",
+    "importance": 0.0004935070795873668
+  },
+  {
+    "feature": "categorical__Last Activity_Resubscribed to emails",
+    "importance": 0.00042846111043621935
+  },
+  {
+    "feature": "categorical__Last Activity_View in browser link Clicked",
+    "importance": 0.00022517400055180233
+  },
+  {
+    "feature": "categorical__Lead Origin_Quick Add Form",
+    "importance": 4.807294139439066e-05
+  },
+  {
+    "feature": "categorical__Last Activity_Visited Booth in Tradeshow",
+    "importance": 1.2450153029111494e-05
+  },
+  {
+    "feature": "categorical__Last Activity_Email Received",
+    "importance": 9.345169081484566e-06
+  }
+]
