@@ -18,15 +18,29 @@ def load_pipeline(model_dir: str = "model"):
     return pipeline, metadata
 
 
+# Fallback only -- used if an older metadata.json predates the
+# "recommendations" key. The authoritative copy is always metadata.json,
+# written once by train.py, per Rules.md #5 (single source of truth).
+_DEFAULT_RECOMMENDATIONS = {
+    "Hot": "Call within 2 hours",
+    "Warm": "Add to nurture sequence",
+    "Cold": "Newsletter only",
+}
+
+
 def tier_and_recommendation(score: int, metadata: dict) -> tuple[str, str]:
     hot = metadata["hot_threshold"]
     warm = metadata["warm_threshold"]
+    recommendations = metadata.get("recommendations", _DEFAULT_RECOMMENDATIONS)
 
     if score >= hot:
-        return "Hot", "Call within 2 hours"
-    if score >= warm:
-        return "Warm", "Add to nurture sequence"
-    return "Cold", "Newsletter only"
+        tier = "Hot"
+    elif score >= warm:
+        tier = "Warm"
+    else:
+        tier = "Cold"
+
+    return tier, recommendations.get(tier, _DEFAULT_RECOMMENDATIONS[tier])
 
 
 def score_one(lead_dict: dict, pipeline, metadata: dict) -> tuple[int, str, str]:

@@ -1,9 +1,14 @@
 {
-  "trained_at": "2026-07-16T01:54:38.614613+00:00",
+  "trained_at": "2026-07-18T01:50:32.258397+00:00",
   "model_type": "RandomForest",
   "test_roc_auc": 0.8763216588858999,
   "hot_threshold": 66,
   "warm_threshold": 46,
+  "recommendations": {
+    "Hot": "Call within 2 hours",
+    "Warm": "Add to nurture sequence",
+    "Cold": "Newsletter only"
+  },
   "precision_at_hot_threshold": 0.8034351145038168,
   "recall_at_hot_threshold": 0.5912921348314607,
   "precision_target_met": true,

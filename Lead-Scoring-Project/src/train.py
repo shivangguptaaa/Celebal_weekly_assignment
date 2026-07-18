@@ -26,6 +26,15 @@ MODEL_DIR = Path("model")
 PRECISION_TARGET = 0.80
 CALIBRATION_GAP_THRESHOLD = 0.10  # reliability-curve gap beyond this counts as "poorly calibrated"
 
+# Per Rules.md #5: tier thresholds AND their next-action text live in
+# metadata.json only. This is the one place this wording is defined --
+# scoring.py reads it back out rather than hardcoding it.
+TIER_RECOMMENDATIONS = {
+    "Hot": "Call within 2 hours",
+    "Warm": "Add to nurture sequence",
+    "Cold": "Newsletter only",
+}
+
 
 def get_candidates() -> dict:
     return {
@@ -173,6 +182,7 @@ def main():
         "test_roc_auc": test_roc_auc,
         "hot_threshold": hot_threshold,
         "warm_threshold": warm_threshold,
+        "recommendations": TIER_RECOMMENDATIONS,
         "precision_at_hot_threshold": precision_at_hot,
         "recall_at_hot_threshold": recall_at_hot,
         "precision_target_met": target_met,
